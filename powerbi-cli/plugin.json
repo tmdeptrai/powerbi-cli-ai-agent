@@ -1,0 +1,4 @@
+{
+  "name": "powerbi-cli",
+  "description": "Agent skill for managing Power BI resources, pipelines, and executing DAX queries via pbicli."
+}
