@@ -1,0 +1,15 @@
+// ==============================================================================
+// Sample DAX Query Template
+// 
+// Description:
+//   Evaluates and extracts the top 10 rows from the Sales table sorted by 
+//   the Total Sales amount.
+// ==============================================================================
+
+EVALUATE
+  TOPN(
+    10, 
+    'Sales', 
+    [Total Sales], 
+    DESC
+  )
